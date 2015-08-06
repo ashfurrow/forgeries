@@ -1,11 +1,11 @@
 osx_image: beta-xcode6.3
 sudo: false
 language: objective-c
-cache: cocoapods
+# cache: cocoapods
 podfile: Example/Podfile
 before_install:
  - gem install cocoapods
- - pod install --project-directory=Example
+ #  - pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
