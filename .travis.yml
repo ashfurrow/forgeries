@@ -1,11 +1,14 @@
+osx_image: beta-xcode6.3
+sudo: false
 language: objective-c
-# cache: cocoapods
+cache: cocoapods
+podfile: Example/Podfile
 before_install:
-- gem install cocoapods
-# - pod install --project-directory=Example
+ - gem install cocoapods
+ - pod install --project-directory=Example
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild build -workspace Example/Forgeries.xcworkspace -scheme forgeries-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild test -workspace Example/Forgeries.xcworkspace -scheme forgeries-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
 after_success: bundle exec slather
