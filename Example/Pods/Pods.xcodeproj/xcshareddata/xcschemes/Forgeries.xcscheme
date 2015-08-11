@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB89D10FC0E67FC80D0F2ECF8401BA96"
-               BuildableName = "Forgeries.framework"
+               BlueprintIdentifier = "92AC08AFC7BF3C94015617D87B0B1133"
+               BuildableName = "libForgeries.a"
                BlueprintName = "Forgeries"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB89D10FC0E67FC80D0F2ECF8401BA96"
-            BuildableName = "Forgeries.framework"
+            BlueprintIdentifier = "92AC08AFC7BF3C94015617D87B0B1133"
+            BuildableName = "libForgeries.a"
             BlueprintName = "Forgeries"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
