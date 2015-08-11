@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "Forgeries" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "forgeries" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -325,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Debug copy";
 		};
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "Forgeries" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "forgeries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EF3D0CB1B7810ED00265146 /* Debug copy */,
