@@ -1,6 +1,6 @@
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/ashfurrow/Forgeries/blob/master/LICENSE)
-[![Build Status](https://img.shields.io/travis/seanoshea/BluePlaquesLondon/master.svg?style=flat)](https://travis-ci.org/ashfurrow/Forgeries)
-[![Coverage Status](https://coveralls.io/repos/seanoshea/BluePlaquesLondon/badge.png?branch=master)](https://coveralls.io/repos/ashfurrow/Forgeries)
+[![Build Status](https://img.shields.io/circleci/ashfurrow/Forgeries/master.svg?style=flat)](https://travis-ci.org/ashfurrow/Forgeries)
+[![Coverage Status](https://coveralls.io/repos/ashfurrow/Forgeries/badge.png?branch=master)](https://coveralls.io/repos/ashfurrow/Forgeries)
 
 # Forgeries
 

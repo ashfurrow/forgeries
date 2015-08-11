@@ -1,5 +1,5 @@
 coverage_service: coveralls
-xcodeproj: Forgeries.xcodeproj
-source_directory: Forgeries
+xcodeproj: Example/Forgeries.xcodeproj
+source_directory: Pod/Classes
 ignore:
-  - ForgeriesTests/*
+  - Example/Tests
