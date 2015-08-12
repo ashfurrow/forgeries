@@ -2,5 +2,13 @@ machine:
   xcode:
     version: "6.3.1"
 test:
-  post:
-    - bundle exec slather
+  override:
+    - set -o pipefail && xcodebuild -workspace 'Example/forgeries.xcworkspace' -scheme 'Tests'
+      -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6"
+      GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES clean test | xcpretty -c
+      --report junit --output ${CIRCLE_TEST_REPORTS}/junit.xml
+deployment:
+  codecov:
+    branch: /.*/
+    commands:
+      - bash <(curl -s https://codecov.io/bash)
